@@ -1,8 +1,9 @@
 {
   "name": "caicai-react-demo",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "private": false,
   "author": "caicai <dev03@cxgchat.com>",
+  "type": "module",
   "scripts": {
     "build": "max build",
     "dev": "max dev",
@@ -15,6 +16,8 @@
   "dependencies": {
     "@ant-design/icons": "^5.0.1",
     "@ant-design/pro-components": "^2.8.6",
+    "@babel/preset-env": "^7.26.9",
+    "@babel/preset-typescript": "^7.26.0",
     "@umijs/max": "^4.4.6",
     "antd": "^5.24.4"
   },
